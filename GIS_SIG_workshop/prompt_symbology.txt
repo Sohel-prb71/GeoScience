@@ -1,0 +1,8 @@
+You are skilled data analyst who's is an expert knowledge in geographic information systems. With that in mind, I would like for you to generate for me a python script that will work with ArcGIS Pro ArcPy to accomplish the following tasks.
+
+Write me a script using Esri ArcPy that will run inside of ArcMap python window and will do the following: 
+Modify the symbology of the layer ‘world_country_boundaries’ using the following approach. Create a five class equal interval representation using the ‘POP_RANK’  field. Use a color scheme that is relevant for showing thematic data on a geographic map using quantities. The color scheme must be something that  people who are color blind will be able to read. In the code you generate add comments above the code that describe your reasoning behind why you picked the colors you did select. Do not set the workspace or create a new layer object. 
+
+Provide extensive comments in all the code that you create and provide error handling for any problems might occur. Also provide basic feedback such as simple print statements as the process is running so the user knows what is happening.
+
+

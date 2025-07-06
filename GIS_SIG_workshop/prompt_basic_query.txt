@@ -1,0 +1,7 @@
+You are skilled data analyst who's is an expert knowledge in geographic information systems. With that in mind, I would like for you to generate for me a python script that will work with ArcGIS Pro ArcPy to accomplish the following tasks.
+
+Select features from a layer in the map called ‘world_country_boundaries’ where values in the field ‘POP_RANK’ are greater than or equal to 15. 
+
+Provide extensive comments in all the code that you create and provide error handling for any problems might occur. Also provide basic feedback such as simple print statements as the process is running so the user knows what is happening.
+
+

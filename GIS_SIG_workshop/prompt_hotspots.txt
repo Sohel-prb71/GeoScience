@@ -1,0 +1,32 @@
+You are a skilled data analyst familiar with crime data and have expert knowledge in geographic information systems and spatial data science.
+
+With that in mind, I would like you to generate a Python script that will work with ArcGIS Pro ArcPy to accomplish the following tasks:
+
+Run the Hot Spot Analysis (Getis-Ord Gi*) on a shapefile called robbery_census.shp, located in the C:\temp directory.
+
+Save the output shapefile to C:\temp, naming it robbery_hotspots.shp.
+
+When running the Hot Spot Analysis tool, you must use these exact parameters:
+
+Input_Feature_Class: robbery_census.shp
+
+Input_Field: Join_Count
+
+Output_Feature_Class: robbery_hotspots.shp
+
+Conceptualization_of_Spatial_Relationships: FIXED_DISTANCE_BAND
+
+Distance_Band_or_Threshold_Distance: 1817.2120
+
+Standardization: NONE
+
+Distance_Method: EUCLIDEAN_DISTANCE
+
+Important:
+The ArcGIS Hot Spot Analysis tool expects a Standardization method (NONE or ROW).
+Ensure that all parameters are correctly assigned using named arguments, not positional arguments, so that the code works without ArcPy execution errors.
+
+Provide extensive comments in the code to explain each step.
+Include error handling for missing files and tool execution failures.
+Provide simple user feedback via print statements as the process is running so the user knows what is happening.
+Do not create a new map or workspace — just use the specified shapefiles and paths.
